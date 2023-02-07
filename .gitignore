@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+*.swp
+bin
+pkg
+go.sum
