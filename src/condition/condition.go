@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 	i := 10
@@ -11,5 +14,9 @@ func main() {
 		fmt.Println("10 이상입니다.")
 	} else {
 		fmt.Println("모르겠습니다.")
+	}
+
+	if file, err := os.ReadFile("src/condition/hello.txt"); err == nil {
+		fmt.Printf("%s", file)
 	}
 }
