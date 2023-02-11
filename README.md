@@ -275,3 +275,7 @@
 ## [맵에서 데이터 제거하기](src/map/delete/delete.go)
 
 > 맵에서 값을 제거하려면 **delete** 함수를 사용한다. 
+
+## [맵 안에 맵 만들기](src/map/inmap/map_in_map.go)
+
+> 맵 값 안에는 일반 자료형 뿐 아니라 맵 자체도 들어갈 수 있다. 
