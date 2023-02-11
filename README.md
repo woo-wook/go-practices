@@ -304,3 +304,7 @@
 ### [함수를 변수에 저장하기](src/function/variable/function_save_to_variable.go)
 
 > 함수를 변수에 저장할 수 있다. 함수를 정의한 뒤 선언한 변수에 대입하기만 하면 된다. 변수 뿐 아니라 슬라이스, 맵에도 함수를 저장할 수 있다.
+
+### [익명 함수 사용하기](src/function/anonymous/anonymous.go)
+
+> Go는 이름이 없는 함수를 정의한 후 바로 호출할 수 있다. 익명 함수는 코드 양을 줄일 수 있다.
