@@ -271,3 +271,7 @@
 ## [맵 순회하기](src/map/traverse/traverse.go)
 
 > 배열, 슬라이스와 마찬가지로 **range** 키워드를 사용한다. 
+
+## [맵에서 데이터 제거하기](src/map/delete/delete.go)
+
+> 맵에서 값을 제거하려면 **delete** 함수를 사용한다. 
