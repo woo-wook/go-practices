@@ -211,3 +211,7 @@
 ## [FizzBuzz 구현하기](src/fizzbuzz/fizzbuzz.go)
 
 > 지금까지 배운 내용으로 FizzBuzz를 구현해보기
+
+## [99병의 맥주 구현하기](src/bottles/bottles.go)
+
+> 지금까지 배운 내용으로 99병의 맥주 구현해보기
