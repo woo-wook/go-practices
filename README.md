@@ -207,3 +207,7 @@
 
 > 다양한 조건을 if, else if 조건문으로 나열하는 것 보다 switch를 사용하면 좀 더 간단하게 표현할 수 있다. 특이한 점은 Go 언어의 switch 문은 break를 생략한다.
 > break를 사용은 가능하나, 문장 실행을 중단하는 용도로 쓰인다. **fallthrough**를 사용하여 다음 문장을 실행할 수 있다.
+
+## [FizzBuzz 구현하기](src/fizzbuzz/fizzbuzz.go)
+
+> 지금까지 배운 내용으로 FizzBuzz를 구현해보기
