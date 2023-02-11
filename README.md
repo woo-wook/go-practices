@@ -202,3 +202,8 @@
 ## [goto 사용하기](src/goto/goto.go)
 
 > goto는 정해진 레이블로 곧장 이동한다. 일반적으로는 권장되지 않는다. 
+
+## [switch 분기문 사용하기](src/switch/switch.go)
+
+> 다양한 조건을 if, else if 조건문으로 나열하는 것 보다 switch를 사용하면 좀 더 간단하게 표현할 수 있다. 특이한 점은 Go 언어의 switch 문은 break를 생략한다.
+> break를 사용은 가능하나, 문장 실행을 중단하는 용도로 쓰인다. **fallthrough**를 사용하여 다음 문장을 실행할 수 있다.
