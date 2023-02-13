@@ -526,3 +526,7 @@
 ### [문자열 검색하기](src/manipulatestring/search/search.go)
 
 > 문자열을 처리할 때 주로 사용하는 기능은 문자열 검색이다. strings 패키지에서는 많은 수의 문자열 검색 함수를 제공한다.
+
+### [문자열 조작하기](src/manipulatestring/manipulate/manipulate.go)
+
+> 문자열을 연결하고, 쪼개고, 반복하고 바꾸는 등 문자열을 조작하는 함수도 지원한다.
