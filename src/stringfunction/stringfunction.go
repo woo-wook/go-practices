@@ -32,7 +32,7 @@ func main() {
 	fmt.Println(num1, num2, s)
 
 	input3 := "1,1.1,hello"
-	n, _ = fmt.Sscanln(input3, "%d,%f,%s", &num1, &num2, &s)
+	n, _ = fmt.Sscanf(input3, "%d,%f,%s", &num1, &num2, &s)
 
 	fmt.Println("입력 개수 :", n)
 	fmt.Println(num1, num2, s)

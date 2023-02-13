@@ -500,3 +500,8 @@
 ## [문자열 입출력 함수 사용하기](src/stringfunction/stringfunction.go)
 
 > 표준 출력과 표준 입력 뿐 아니라 변수를 문자열로 만들거나 문자열에서 변수로 가져올 수 있다. fmt 패키지에는 Sprint, Sscan 과 같은 문자열 입출력 함수가 존재한다.
+
+## [파일 입출력 함수 사용하기](src/filefunction/filefunction.go)
+
+> 값을 파일로 저장하거나 파일에서 변수로 값을 가져올 수 있다. **os 패키지**에는 Create, Open, Close 등의 함수를 제공한다. 이후 fmt 패키지에서 제공하는 Fprint, Fscan 등을 사용하여 파일을 생성하거나 열 수 있다.
+> 
