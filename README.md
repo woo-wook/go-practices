@@ -600,3 +600,9 @@
 ### [읽기, 쓰기 인터페이스를 함께 사용하기](src/io/readwriter/readwriter.go)
 
 > 지금까지는 각각 사용했는데. 이번에는 **io.ReadWriter** 인터페이스를 통해 읽기/쓰기를 처리해보자. 해당 인터페이스는 Reader, Writer를 임베딩 하고있다.
+
+## [JSON 문서 사용하기](src/json/json.go)
+
+> JSON 형식은 인터넷 기반으로 발전하며 널리 쓰이고 있다. Go 언어에서는 encoding/json 패키지에서 json을 제공한다. 
+> 문서를 읽기 위해서는 **Unmarshal** 함수를 사용하면 된다. JSON 문서의 데이터를 저장할 공간이 필요한데, 간단하게 맵으로 사용할 수 있다.
+> 반대로 데이터를 JSON 형태로 변경하기 위해서는 **Marshal, MarshelIndent** 함수를 사용하여 변환할 수 있다. (indent는 사람이 보기 좋게 만들어 준다.)
