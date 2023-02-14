@@ -615,3 +615,8 @@
 ### [JSON 파일 사용하기](src/json/file/file.go)
 
 > JSON 파일을 만들고 읽는 것 또한 가능하다. os.WriteFile과 os.ReadFile을 적절히 사용하여 처리가 가능하다.
+
+## [압축 사용하기](src/compression/compression.go)
+
+> Go는 다양한 압축 알고리즘을 패키지로 제공한다. **compress** 패키지로 제공한다. 압축 알고리즘은 모두 io.Reader, io.Writer 인터페이스를 따르므로, 같은 방법으로 압축 및 해제가 가능하다.
+> bzip, zlib, flate, lzw 등을 지원한다.
