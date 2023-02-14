@@ -563,3 +563,7 @@
 ### [파일 읽기](src/file/read/read.go)
 
 > os 패키지에는 파일 열기, 파일 읽기 등 함수를 제공한다. **os.Open** 으로 파일을 열었을 경우에는 파일을 읽기만 가능하다.
+
+### [파일 읽기 쓰기](src/file/readwrite/readwrite.go)
+
+> **os.OpenFile** 함수를 사용하면 읽기/쓰기 모드로 파일을 열고 읽고 쓸 수 있다.
