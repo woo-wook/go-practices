@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	file, err := os.OpenFile("src/file/file.txt", os.O_CREATE|os.O_RDWR|os.O_TRUNC, os.FileMode(644))
+	file, err := os.OpenFile("src/file/file.txt", os.O_CREATE|os.O_RDWR|os.O_TRUNC, os.FileMode(0644))
 
 	if err != nil {
 		fmt.Println(err)

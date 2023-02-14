@@ -573,3 +573,13 @@
 > **ioutil** 패키지를 사용하면 좀 더 간단하게 파일을 읽고 쓸 수 있다. WriteFile과 ReadFile 함수를 제공한다.
 > 파일명, 데이터, 파일모드 등만 지정하면 간단하게 사용할 수 있다. 
 > 현재는 ioutil은 deprecate 되었고, os.ReadFile, os.WriteFile로 대체되었다.
+
+## 입출력 인터페이스 사용하기
+
+> Go는 io.Reader, io.Writer 인터페이스를 활용하여 다양한 방법으로 입출력을 지원한다. 화면에 출력하는 부분부터 파일, 문자열까지 같은 인터페이스로 처리할 수 있다.
+> 어떤 구조체든, 매개 변수로 바이트 슬라이스를 받고, 정수와 에러 값을 리턴하는 Read 함수를 가지고 있으면 io.Reader 인터페이스를 따른다고 볼 수 있다. Write도 마찬가지다.
+
+### [파일 처리하기](src/io/file/file.go)
+
+> bufio는 Buffered I/O를 뜻하며 io.Reader, io.Writer 인터페이스를 받는다. bufio.NewWriter 함수에 file 인스턴스를 넣으면 io.Write 인스턴스를 따르는 쓰기 인스턴스를 리턴한다.
+> bufio를 사용하므로, 파일에 바로 저장하지 않고 임시 공간에 쌓아둔다. 버퍼의 내용을 완전히 파일에 저장하기 위해서는 flush 메서드를 사용한다.

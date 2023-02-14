@@ -8,7 +8,7 @@ import (
 func main() {
 	s := "Hello, World!"
 
-	err := os.WriteFile("src/file/file.txt", []byte(s), os.FileMode(644))
+	err := os.WriteFile("src/file/file.txt", []byte(s), os.FileMode(0644))
 
 	if err != nil {
 		fmt.Println(err)
