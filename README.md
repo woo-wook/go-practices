@@ -583,3 +583,7 @@
 
 > bufio는 Buffered I/O를 뜻하며 io.Reader, io.Writer 인터페이스를 받는다. bufio.NewWriter 함수에 file 인스턴스를 넣으면 io.Write 인스턴스를 따르는 쓰기 인스턴스를 리턴한다.
 > bufio를 사용하므로, 파일에 바로 저장하지 않고 임시 공간에 쌓아둔다. 버퍼의 내용을 완전히 파일에 저장하기 위해서는 flush 메서드를 사용한다.
+
+### [문자열을 파일로 저장하기](src/io/stringtofile/stringtofile.go)
+
+> strings.NewReader를 통해 String을 io.Reader 형태로 변경할 수 있다. 이를 사용하여 문자열을 파일에 보다 쉽게 저장할 수 있다.
