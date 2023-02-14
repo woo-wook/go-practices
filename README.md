@@ -547,3 +547,7 @@
 ### [문자열 검색하기](src/regexp/string/string.go)
 
 > regexp 패키지에는 정규표현식 문자열 검색 함수 또한 지원한다.
+
+### [문자열 조작하기](src/regexp/replace/replace.go)
+
+> regexp 패키지에는 정규표현식을 통한 문자열 조작 함수를 지원한다.
