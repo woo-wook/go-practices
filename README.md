@@ -591,3 +591,8 @@
 ### [문자열을 화면에 출력하기](src/io/stringtoconsole/stringtoconsole.go)
 
 > io.Reader를 그대로 화면에 출력할 수 있다. os.Stdout도 io.Writer 인터페이스를 따르기 때문에 io.Reader를 복사해주면 그대로 출력된다.
+
+### [기본 입출력 함수 사용하기](src/io/stdio/stdio.go)
+
+> fmt.Fscanf는 파일 인스턴스 뿐 아니라 io.Reader를 따르는 모든 인스턴스를 사용할 수 있다. 따라서 문자열로 만든 io.Reader도 사용할 수 있다. 
+> 반대로 fmt.Fprintf 함수는 io.Writer를 따르는 모든 인스턴스를 사용할 수 있다. 이러한 인터페이스 사용법에 익숙해지자.
