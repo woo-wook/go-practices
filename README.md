@@ -567,3 +567,9 @@
 ### [파일 읽기 쓰기](src/file/readwrite/readwrite.go)
 
 > **os.OpenFile** 함수를 사용하면 읽기/쓰기 모드로 파일을 열고 읽고 쓸 수 있다.
+
+### [ioutil 패키지 사용하기](src/file/ioutil/ioutil.go)
+
+> **ioutil** 패키지를 사용하면 좀 더 간단하게 파일을 읽고 쓸 수 있다. WriteFile과 ReadFile 함수를 제공한다.
+> 파일명, 데이터, 파일모드 등만 지정하면 간단하게 사용할 수 있다. 
+> 현재는 ioutil은 deprecate 되었고, os.ReadFile, os.WriteFile로 대체되었다.
