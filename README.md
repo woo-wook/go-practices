@@ -596,3 +596,7 @@
 
 > fmt.Fscanf는 파일 인스턴스 뿐 아니라 io.Reader를 따르는 모든 인스턴스를 사용할 수 있다. 따라서 문자열로 만든 io.Reader도 사용할 수 있다. 
 > 반대로 fmt.Fprintf 함수는 io.Writer를 따르는 모든 인스턴스를 사용할 수 있다. 이러한 인터페이스 사용법에 익숙해지자.
+
+### [읽기, 쓰기 인터페이스를 함께 사용하기](src/io/readwriter/readwriter.go)
+
+> 지금까지는 각각 사용했는데. 이번에는 **io.ReadWriter** 인터페이스를 통해 읽기/쓰기를 처리해보자. 해당 인터페이스는 Reader, Writer를 임베딩 하고있다.
