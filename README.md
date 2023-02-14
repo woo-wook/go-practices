@@ -530,3 +530,7 @@
 ### [문자열 조작하기](src/manipulatestring/manipulate/manipulate.go)
 
 > 문자열을 연결하고, 쪼개고, 반복하고 바꾸는 등 문자열을 조작하는 함수도 지원한다.
+
+## [문자열 변환 함수 사용하기](src/transformation/transformation.go)
+
+> 정수, 실수, 불 등을 문자열로 변환하는 함수도 지원한다. **strconv** 패키지에서 제공하는 문자열 변환 함수들이 있다.
