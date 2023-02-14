@@ -587,3 +587,7 @@
 ### [문자열을 파일로 저장하기](src/io/stringtofile/stringtofile.go)
 
 > strings.NewReader를 통해 String을 io.Reader 형태로 변경할 수 있다. 이를 사용하여 문자열을 파일에 보다 쉽게 저장할 수 있다.
+
+### [문자열을 화면에 출력하기](src/io/stringtoconsole/stringtoconsole.go)
+
+> io.Reader를 그대로 화면에 출력할 수 있다. os.Stdout도 io.Writer 인터페이스를 따르기 때문에 io.Reader를 복사해주면 그대로 출력된다.
