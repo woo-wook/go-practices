@@ -660,3 +660,7 @@
 ### [연결 리스트 사용하기](src/container/list/list.go)
 
 > Go 언어에서는 이중 연결 리스트를 지원한다. 따라서 앞, 뒤 양쪽 방향으로 순회할 수 있다.
+
+### [힙 사용하기](src/container/heap/heap.go)
+
+> **container/heap** 패키지에서 힙을 제공한다. 힙은 다른 자료구조와 다르게 heap.Interface를 구현해야 한다. 힙은 완전 이진 트리를 사용한 구조며, 최대 힙과 최소 힙이 있다.
