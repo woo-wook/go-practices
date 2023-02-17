@@ -664,3 +664,7 @@
 ### [힙 사용하기](src/container/heap/heap.go)
 
 > **container/heap** 패키지에서 힙을 제공한다. 힙은 다른 자료구조와 다르게 heap.Interface를 구현해야 한다. 힙은 완전 이진 트리를 사용한 구조며, 최대 힙과 최소 힙이 있다.
+
+### [링 사용하기](src/container/ring/ring.go)
+
+> **container/ring** 패키지에서 링을 제공한다. 링은 원형으로 연결 된 이중 연결 리스트다. 따라서 처음과 끝이 없고 nil을 가리키는 노드가 없다. 
